@@ -27,7 +27,8 @@ function createFeed(feed) {
     '<span class="badge">'+ feed.timeago +
     '</span></div>'+
     '<div class="collapsible-body"><span>'+ feed.summary +
-    '</span></div>'+
+    '<br><i>' + new Date(feed.created_at) +
+    '</i></span></div>'+
   '</li>';
 
   $("#twitterFeedAccordion").append(feedHTML);
