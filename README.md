@@ -4,7 +4,7 @@ Description
 ------------
 This website shows the titles of the 25 latest articles about (i.e., with his name in the article) Trump and his 25 latest tweets on one page, so that I can easily keep track of his situation. If there are less than 25, just show the ones that are available. In addition, one can read the full articles/posts in a convenient way. 
 
-![Alt text](screenshots/flow.png?raw=true "Flow")
+![alt text](screenshots/flowchart.png?raw=true "Flow")
 
 Entities
 ------------
@@ -35,7 +35,7 @@ CNN Selector Algorithm
 
 Screenshot
 ------------
-![Alt text](screenshots/1.png?raw=true "screenshot1")
+![alt text](screenshots/s1.png?raw=true "screenshot1")
 
 Tasks
 ------------
