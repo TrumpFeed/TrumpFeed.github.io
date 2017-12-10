@@ -1,1 +1,78 @@
-<h1>test</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Donald Trump Feed</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+</head>
+<body>
+  <nav class="orange" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Donald Trump Feed</a>
+      <ul class="right hide-on-med-and-down">
+        <li><i class="material-icons" title="cnn">rss_feed</i></li>
+        <li><a>CNN</a></li>
+        <li><i class="material-icons" title="public">public</i></li>
+        <li><a>Twitter</a></li>
+      </ul>
+
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+
+      <ul class="collapsible" data-collapsible="accordion" id="twitterFeedAccordion">
+      </ul>
+
+      <br><br>
+
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l9 s12">
+          <h5 class="white-text">Description</h5>
+          <p class="grey-text text-lighten-4">This website shows the titles of the 25 latest articles about (i.e., with his name in the article) Trump and his 25 latest tweets on one page, so that I can easily keep track of his situation. If there are less than 25, just show the ones that are available. In addition, one can read the full articles/posts in a convenient way.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+            <li><a class="white-text" href="https://github.com/TrumpFeed/TrumpFeed.github.io" target="_blank">Github</a></li>
+            <li><a class="white-text" href="https://github.com/TrumpFeed/NodeJS-API" target="_blank">API</a></li>
+            <li><a class="white-text" href="https://dashboard.heroku.com/apps/trumpfeed" target="_blank">Heroku Dashboard</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="https://www.linkedin.com/in/amritsinghbains/" target="_blank">Amrit</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/moment.js"></script>
+  <script>
+    moment().format();
+  </script>
+  <script src="js/main.js"></script>
+
+  </body>
+</html>
