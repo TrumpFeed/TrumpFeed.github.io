@@ -33,8 +33,10 @@ CNN Selector Algorithm
 + Range of points is from 0 to 10
 + Threshold value: 4; if an article score more than this then it is about Donald Trump
 
-Screenshot
+Screenshots
 ------------
+![alt text](screenshots/s2.png?raw=true "screenshot2")
+
 ![alt text](screenshots/s1.png?raw=true "screenshot1")
 
 Tasks
